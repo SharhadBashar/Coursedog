@@ -386,7 +386,7 @@ describe('GildedDoghouse', () => {
   })
 
   describe('Beef Cake', () => {
-    test.skip('before sell date', () => {
+    test('before sell date', () => {
       const gildedDoghouse = new GildedDoghouse({
         name: 'Beef Cake',
         daysRemaining: 5,
@@ -401,7 +401,7 @@ describe('GildedDoghouse', () => {
       })
     })
 
-    test.skip('before sell date at zero quality', () => {
+    test('before sell date at zero quality', () => {
       const gildedDoghouse = new GildedDoghouse({
         name: 'Beef Cake',
         daysRemaining: 5,
@@ -416,7 +416,7 @@ describe('GildedDoghouse', () => {
       })
     })
 
-    test.skip('on sell date', () => {
+    test('on sell date', () => {
       const gildedDoghouse = new GildedDoghouse({
         name: 'Beef Cake',
         daysRemaining: 0,
@@ -431,7 +431,7 @@ describe('GildedDoghouse', () => {
       })
     })
 
-    test.skip('on sell date at zero quality', () => {
+    test('on sell date at zero quality', () => {
       const gildedDoghouse = new GildedDoghouse({
         name: 'Beef Cake',
         daysRemaining: 0,
@@ -446,7 +446,7 @@ describe('GildedDoghouse', () => {
       })
     })
 
-    test.skip('after sell date', () => {
+    test('after sell date', () => {
       const gildedDoghouse = new GildedDoghouse({
         name: 'Beef Cake',
         daysRemaining: -10,
@@ -461,7 +461,7 @@ describe('GildedDoghouse', () => {
       })
     })
 
-    test.skip('after sell date at zero quality', () => {
+    test('after sell date at zero quality', () => {
       const gildedDoghouse = new GildedDoghouse({
         name: 'Beef Cake',
         daysRemaining: -10,
