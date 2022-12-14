@@ -170,9 +170,11 @@ class GildedDoghouse {
  * 'Training Session'
  * 'Beef Cake'
  * 
+ * quality:
  * quality > 0
  * quality < 50
  * 
+ * daysRemaining:
  * daysRemaining < 11
  * daysRemaining < 6
  * daysRemaining < 0
