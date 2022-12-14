@@ -155,6 +155,7 @@ describe('GildedDoghouse', () => {
     })
   })
 
+  // This is for 'Coursedog Mascot'
   describe('Sulfuras', () => {
     test('before sell date', () => {
       const gildedDoghouse = new GildedDoghouse({
