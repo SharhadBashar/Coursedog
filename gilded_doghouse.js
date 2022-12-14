@@ -51,7 +51,7 @@ class GildedDoghouse {
     }
     if (this.name == 'Beef Cake') {
       this.quality = this.quality - 1
-      if (this.daysRemaining <= 0) {
+      if ((this.daysRemaining + 1) <= 0) {
         this.quality = this.quality - 1
       }
       this.quality = Math.max(this.quality, 0)

@@ -1,4 +1,4 @@
-const GildedDoghouse = require('./gilded_doghouse')
+const GildedDoghouse = require('./gilded_doghouse_alternate')
 
 describe('GildedDoghouse', () => {
   describe('normal item', () => {
