@@ -153,10 +153,16 @@ class GildedDoghouse {
     }
 
     if (this.name == 'Beef Cake') {
+      // Come here if name is 'Beef Cake' AND THEN reduce quality by 1
+      console.log('4.0.0.0')
       this.quality = this.quality - 1
       if (this.daysRemaining <= 0){
+        // Come here if name is 'Beef Cake' AND daysRemaining <= 0 AND THEN reduce quality by 1
+        console.log('4.0.0.1')
         this.quality = this.quality - 1
       }
+      console.log('4.0.0.2')
+      // Come here if name is 'Beef Cake' AND THEN set quality to max(quality, 0)
       this.quality = Math.max(this.quality, 0)
     }
 
@@ -187,6 +193,7 @@ class GildedDoghouse {
  * daysRemaining < 6
  * daysRemaining < 0
  */
+
 const name = 'Beef Cake';
 const daysRemaining = 5;
 const quality = 10
